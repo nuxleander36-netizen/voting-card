@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-box">
+        <h2>Voter Registration Form</h2>
+
+        <form>
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" placeholder="Enter first name" required>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" placeholder="Enter last name" required>
+
+            <label for="oname">Other Name</label>
+            <input type="text" id="oname" placeholder="Enter other name">
+
+            <label for="state">State of Origin</label>
+            <select id="state" required>
+                <option value="">Select State</option>
+            </select>
+
+            <label for="lga">LGA</label>
+            <select id="lga" required>
+                <option value="">Select LGA</option>
+            </select>
+
+            <label for="pollingunit">Polling Unit</label>
+            <input type="text" id="polling unit" placeholder="enter polling unit">
+
+            <button type="submit">Register</button>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
